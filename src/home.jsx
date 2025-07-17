@@ -1,6 +1,6 @@
 import "./home.scss";
 import { useState } from "react";
-import x from "./assets/x.png";
+import x from "./assets/x-min.png";
 
 import chillAudio from "./assets/chill.mp3";
 import sadAudio from "./assets/sad.mp3";

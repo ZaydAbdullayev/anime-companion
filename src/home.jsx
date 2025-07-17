@@ -106,12 +106,16 @@ export function App() {
   return (
     <div className="w100 df fdc aic home-container">
       <img className="x-icon" src={x} alt="Close" />
-      <h1>Anime Emotion Companion</h1>
+      <h1>Emotion Companion</h1>
       <p>A gentle app to reflect your mood with soothing anime vibes.</p>
 
       <div className="emotions-container">
         {EMOTIONS.map((e) => (
-          <button className="df fdc" key={e.id} onClick={() => handleEmotionChange(e.id)}>
+          <button
+            className="df fdc"
+            key={e.id}
+            onClick={() => handleEmotionChange(e.id)}
+          >
             {e.emoji}
             <span className="emotion-label">{e.label}</span>
           </button>

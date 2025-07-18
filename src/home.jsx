@@ -105,8 +105,13 @@ export function App() {
 
   return (
     <div className="w100 df fdc aic home-container">
-      <img className="x-icon" src={x} alt="Close" />
-      <h1>Emotion Companion</h1>
+      <img
+        className="x-icon"
+        src={x}
+        alt="Close"
+        onClick={() => window.open("https://x.com/feelingbot_aura", "_blank")}
+      />
+      <h1>Feeling Bot</h1>
       <p>A gentle app to reflect your mood with soothing anime vibes.</p>
 
       <div className="emotions-container">
